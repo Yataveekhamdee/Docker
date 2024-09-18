@@ -1,0 +1,6 @@
+docker -v
+docker ps
+docker ps --all
+docker run hello-world
+docker stop db08ed62d001
+docker run -p 9000:80 nginx
