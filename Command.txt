@@ -4,3 +4,6 @@ docker ps --all
 docker run hello-world
 docker stop db08ed62d001
 docker run -p 9000:80 nginx
+docker images
+docker images busybax
+docker images rm busybax
